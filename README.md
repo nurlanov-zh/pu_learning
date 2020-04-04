@@ -12,5 +12,5 @@ Given 2 subsets with "labeled *(s = 1)*" and "unlabeled *(s = 0)*" data, a stand
 
 And under our scenario and assumption we get: 
 ```markdown
-g(x) = p(s=1|x) = p(y=1 and s=1|x) = p(y=1|x)p(s=1|y=1, x) = p(y=1|x)p(s=1|y=1) = f(x) c
+g(x) = p(s=1|x) = p(y=1 and s=1|x) = p(y=1|x)p(s=1|y=1, x) = p(y=1|x)p(s=1|y=1) = f(x)c
 ```
