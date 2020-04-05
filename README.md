@@ -14,3 +14,7 @@ And under our scenario and assumption we get:
 ```markdown
 g(x) = p(s=1|x) = p(y=1 and s=1|x) = p(y=1|x)p(s=1|y=1, x) = p(y=1|x)p(s=1|y=1) = f(x)c
 ```
+So, the main result is
+```markdown
+p(y=1|x) = p(s=1|x)/c
+```
