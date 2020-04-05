@@ -42,3 +42,14 @@ because for any x in P:
 g(x) = p(s = 1|x) = p(s = 1|x, y=1)p(y = 1|x) + p(s = 1|x, y=0)p(y=0|x) =(x in P),(1)= 
 = p(s = 1|x, y=1)1 + 0 =(2)= p(s = 1| y = 1) = c
 ```
+Second estimator *e_2*:
+```markdown
+e_2 = sum_{x in P}(g(x)) / sum_{x in V}(g(x))
+```
+Third estimator *e_3*:
+```markdown
+e_3 = max_{x in V}(g(x)), 
+because g(x) <= c for any x
+```
+
+However, in practise and in theory the first one *e_1* has the lowest variance.
